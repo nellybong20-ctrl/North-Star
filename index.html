@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>North Star</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>North Star</h1>
+        <p class="tagline">Track opportunities. Reach your destination.</p>
+        <h3 id ="total">Total opportunities: </h3>
+        <div id="quote"></div>
+        <div class="form">
+            <input type="text" id="name" placeholder="Scholarship Name">
+
+            <input type="date" id="deadline">
+
+            <input
+            type="text"
+            id="link"
+            placeholder="Application Link">
+
+            <select id="status">
+                <option>Preparing</option>
+                <option>Submitted</option>
+                <option>Accepted</option>
+                <option>Rejected</option>
+            </select>
+
+            <button onclick="addScholarship()">Add Scholarship</button>
+        </div>
+
+        <div id="scholarships"></div>
+        <script src="script.js"></script>
+    </body>
+</html>

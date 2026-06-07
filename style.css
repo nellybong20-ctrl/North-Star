@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom: 20px;
+}
+
+input,
+select{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 6px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:#1e3a8a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #14296b;
+}
+
+#scholarships{
+    display: grid;
+    gap: 15px;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-top: 0;
+    color: #1e3a8a;
+}
+
+.card p{
+    margin: 5px 0;
+   }
+
+.tagline{
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.safe{
+    color: green;
+    font-weight: bold;
+}
+
+.warning{
+    color: orange;
+    font-weight: bold;
+}
+
+.urgent{
+    color: red;
+    font-weight: bold;
+}
